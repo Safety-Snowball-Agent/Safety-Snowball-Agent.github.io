@@ -173,7 +173,7 @@
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2304.08485" target="_blank"
+                  <a href="https://arxiv.org/pdf/2411.11496" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -182,16 +182,7 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2310.03744" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>arXiv (SSA-1.5)</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://github.com/haotian-liu/SSA" target="_blank"
+                  <a href="https://github.com/gzcch/Safety_Snowball_Agent" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -199,7 +190,7 @@
                     <span>Code</span>
                   </a>
                 </span>
-                <span class="link-block">
+<!--                 <span class="link-block">
                   <a href="https://SSA.hliu.cc" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -207,8 +198,8 @@
                     </span>
                     <span>Demo</span>
                   </a>
-                </span>
-                <span class="link-block">
+                </span> -->
+<!--                 <span class="link-block">
                   <a href="https://huggingface.co/datasets/liuhaotian/SSA-Instruct-150K" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -216,8 +207,8 @@
                     </span>
                     <span>Dataset</span>
                   </a>
-                </span>
-                <span class="link-block">
+                </span> -->
+<!--                 <span class="link-block">
                   <a href="https://github.com/haotian-liu/SSA/blob/main/docs/MODEL_ZOO.md" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -225,7 +216,7 @@
                     </span>
                     <span>Model</span>
                   </a>
-                </span>
+                </span> -->
 
 
                 
@@ -251,21 +242,18 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h4 class="subtitle has-text-centered">
-          🔥<span style="color: #ff3860">[NEW!]</span> SSA-1.5 achieves SoTA on 11 benchmarks, with just simple modifications to the original SSA, utilizes all public data, completes training in ~1 day on a single 8-A100 node, and surpasses methods that use billion-scale data.
+          🔥<span style="color: #ff3860">[NEW!]</span> SSA
           <br><br>
-          SSA represents a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna
-          for general-purpose visual and language understanding,
-          achieving impressive chat capabilities mimicking spirits of the multimodal GPT-4 and setting a new state-of-the-art accuracy on Science QA.
-        </h4>
+         SSA        </h4>
       </div>
     </div>
   </section>
 
-  <section class="section"  style="background-color:#efeff081">
+<!--   <section class="section"  style="background-color:#efeff081">
     <div class="container is-max-desktop" id="gradio">
       <gradio-app src="https://SSA.hliu.cc"></gradio-app>
     </div>
-  </section>
+  </section> -->
 
   <section class="section"  style="background-color:#efeff081">
     <div class="container is-max-desktop">
@@ -275,7 +263,7 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Instruction tuning large language models (LLMs) using machine-generated instruction-following data has improved zero-shot capabilities on new tasks in the language domain, but the idea is less explored in the multimodal field.
+             SSA intro
               <ol type="1">
                 <li><b>Multimodal Instruct Data</b>. <span style="font-size: 95%;">We present the first attempt to use <a href="https://openai.com/research/gpt-4">language-only GPT-4</a> to generate multimodal language-image instruction-following data. </span></li>
                 <li><b>SSA Model</b>. <span style="font-size: 95%;">We introduce <it><b>SSA</b> (<b>L</b>arge <b>L</b>anguage-<b>a</b>nd-<b>V</b>ision <b>A</b>ssistant)</it>, an end-to-end trained large multimodal model that connects a vision encoder and LLM for general-purpose visual and language understanding.</li>
