@@ -263,30 +263,28 @@
     </div>
   </section> -->
 
-  <section class="section"  style="background-color:#efeff081">
-    <div class="container is-max-desktop">
-      <!-- Abstract. -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-six-fifths">
-          <h2 class="title is-3">Abstract</h2>
-          <div class="content has-text-justified">
-            <p>
-             SSA intro
-              <ol type="1">
-                <li><b>Multimodal Instruct Data</b>. <span style="font-size: 95%;">We present the first attempt to use <a href="https://openai.com/research/gpt-4">language-only GPT-4</a> to generate multimodal language-image instruction-following data. </span></li>
-                <li><b>SSA Model</b>. <span style="font-size: 95%;">We introduce <it><b>SSA</b> (<b>L</b>arge <b>L</b>anguage-<b>a</b>nd-<b>V</b>ision <b>A</b>ssistant)</it>, an end-to-end trained large multimodal model that connects a vision encoder and LLM for general-purpose visual and language understanding.</li>
-                <li><b>Performance</b>. <span style="font-size: 95%;">Our early experiments show that SSA demonstrates impressive multimodel chat abilities, sometimes exhibiting the behaviors of multimodal GPT-4 on unseen images/instructions, and yields a 85.1% relative score compared with GPT-4 on a synthetic multimodal instruction-following dataset.
-                  When fine-tuned on <a href="https://scienceqa.github.io/">Science QA</a>, the synergy of SSA and GPT-4  achieves a new state-of-the-art accuracy of 92.53%.</li>
-                <li><b>Open-source</b>. <span style="font-size: 95%;">We make GPT-4 generated visual instruction tuning data, our model and code base publicly available.</li>
-              </ol>  
-           </p>
-  
-          </div>
+<section class="section" style="background-color:#efeff081">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advances in Large Vision-Language Models (LVLMs) have showcased strong reasoning abilities across multiple modalities, achieving significant breakthroughs in various real-world applications. However, ensuring the safety of LVLMs in unforeseen visual contexts remains a significant challenge.
+            <ol type="1">
+              <li><b>Universal Reasoning and Snowball Effect</b>. <span style="font-size: 95%;">We reveal that safe images, when combined with additional safe prompts and images, can lead to harmful outputs due to LVLMs' universal reasoning capabilities and the safety snowball effect.</span></li>
+              <li><b>SSA Framework</b>. <span style="font-size: 95%;">We propose the <it><b>Safety Snowball Agent (SSA)</b></it>, a novel agent-based framework leveraging autonomous and tool-using abilities of agents to achieve LVLM jailbreaks through two key stages: (1) initial response generation using tools to retrieve or generate jailbreak images, and (2) harmful snowballing through progressively refined prompts.</span></li>
+              <li><b>Performance</b>. <span style="font-size: 95%;">Our experiments demonstrate that SSA achieves high success rates in jailbreaking the latest LVLMs using nearly any image, significantly surpassing existing methods that target alignment flaws.</span></li>
+              <li><b>Challenge for Safety</b>. <span style="font-size: 95%;">SSA exploits the inherent properties of LVLMs, presenting a profound challenge for enforcing safety in generative multimodal systems, and calls for rethinking safety mechanisms in these models.</span></li>
+            </ol>  
+          </p>
         </div>
       </div>
-        
     </div>
-  </section>
+  </div>
+</section>
+
 
 
   
