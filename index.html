@@ -366,15 +366,20 @@
         </p>
       </div>
 
-  
+  .teaser-img {
+  width: 32%; /* 确保每张图片占一行中的相同比例 */
+  object-fit: cover; /* 保持图片内容适配容器，避免变形 */
+  aspect-ratio: 16/9; /* 设置固定的宽高比 */
+  max-width: 100%;
+  max-height: 100%;
+}
 <div class="columns is-centered has-text-centered">
-  <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img id="teaser" width="100%" src="images/case_data_0.jpg">
-    <img id="teaser" width="100%" src="images/case_data_1.jpg">
-    <img id="teaser" width="100%" src="images/case_data_2.jpg">
+  <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center; gap: 10px;">
+    <img id="teaser-0" class="teaser-img" src="images/case_data_0.jpg">
+    <img id="teaser-1" class="teaser-img" src="images/case_data_1.jpg">
+    <img id="teaser-2" class="teaser-img" src="images/case_data_2.jpg">
   </div>
 </div>
-
 
 
 
